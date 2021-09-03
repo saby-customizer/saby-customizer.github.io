@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          SABY Customizer GitHub Page
 // @namespace     saby-customizer
-// @version       0.0.1
+// @version       0.0.2
 // @author        IgorNovozhilov
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @homepage      https://n.sbis.ru/saby-customizer
