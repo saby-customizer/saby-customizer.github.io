@@ -1,1 +1,1 @@
-console.log('SABY Customizer GitHub Page is loaded')
+console.log('SABY Customizer GitHub Page v2 is loaded')
