@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name          SABY Customizer GitHub Page
+// @name          SABY Customizer
 // @namespace     saby-customizer
 // @version       0.0.2
 // @author        IgorNovozhilov
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
-// @homepage      https://n.sbis.ru/saby-customizer
+// @homepage      https://saby-customizer.github.io
 // @icon
 // @icon64
-// @supportURL    https://n.sbis.ru/saby-customizer/forum
+// @supportURL    https://github.com/saby-customizer/saby-customizer.github.io/issues
 // @include       https://sbis.ru/*
 // @include       https://*.sbis.ru/*
 // @include       https://saby.ru/*
@@ -24,8 +24,7 @@
 
   script.id = 'saby-customizer-userscript'
   script.type = 'module'
-  script.src = 'https://cdn.jsdelivr.net/npm/saby-customizer@0.0.0-pre.1/userscript.min.js'
-  script.setAttribute('version', '0.0.0-pre.1.test')
+  script.src = 'https://saby-customizer.github.io/script.js'
 
   document.documentElement.appendChild(script)
 })(
