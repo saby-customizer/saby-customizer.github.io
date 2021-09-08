@@ -24,7 +24,7 @@
 
   script.id = 'saby-customizer-userscript'
   script.type = 'module'
-  script.src = 'https://saby-customizer.github.io/script.js'
+  script.src = 'https://saby-customizer.github.io/userscript.js'
 
   document.documentElement.appendChild(script)
 })(
