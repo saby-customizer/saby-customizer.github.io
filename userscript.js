@@ -10,11 +10,11 @@ async function importSabyCustomizer(uri) {
   uri = `saby-customizer@${uri}`
 
   try {
-    await import(`https://cdn.jsdelivr.net/npm/${uri}/userscript.js`)
+    await import(`https://cdn.jsdelivr.net/npm/${uri}/userscript.js/+esm`)
   } catch (e) {
     console.error(e.stack || e)
     try {
-      await import(`https://unpkg.com/${uri}/userscript.js`)
+      await import(`https://unpkg.com/${uri}/userscript.js?module`)
     } catch (e) {
       console.error(e.stack || e)
       throw new Error(`saby-customizer uri: '${uri}' is not found!`)
