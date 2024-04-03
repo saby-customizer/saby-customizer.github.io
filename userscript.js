@@ -1,4 +1,4 @@
-const latestVersion = '0.0.5'
+const latestVersion = '0.0.6'
 
 
 /**
